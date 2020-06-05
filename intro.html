@@ -4,30 +4,7 @@
     <meta charset="utf-8">
     <title>what is the html</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-      function setColor(color){
-        var links = document.querySelectorAll('a');
-        var i=0
-        while(i<links.length-4){
-        links[i].style.color=color;
-        i=i+1;
-        }
-      }
-      function nightdayHandler(self){
-          var target = document.querySelector('body');
-          if(self.value==='night'){
-            target.style.backgroundColor='black'
-            target.style.color='white'
-            self.value='day'
-            setColor('powderblue')
-          } else{
-            target.style.backgroundColor='white'
-            target.style.color='black'
-            self.value='night'
-            setColor('blue')
-          }
-        }
-        </script>
+    <script src="color.js"></script>
   </head>
   <body>
       <h1><a href="intro.html">WEB</a><br><br>
